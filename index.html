@@ -21,6 +21,7 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav d-flex align-items-center">
+                <button type="button" class="btn btn-warning">Get tickets</button>
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Speakers</a></li>
@@ -36,7 +37,7 @@
     <div class="banner-content">
         <h1 class="display-4 fw-bold">About Event</h1>
         <p class="lead mt-3">
-            The Africa Tech Summit brings together innovators, startups, and industry leaders.
+            The Africa Tech Summit that will be held on 15 JUNE 2026 at THE CARNIVORE GROUNDS at 2pm, brings together innovators, startups, and industry leaders.
             We create a platform for collaboration, learning, and groundbreaking ideas.
             Our mission is to empower the next generation of African tech entrepreneurs.
             Join us to explore emerging technologies and digital transformation.
@@ -138,6 +139,40 @@
     </div>
 </section>
 
+
+<section class="schedule-section">
+
+  <div class="schedule-header">
+    <div>
+      <div class="title">Event Time</div>
+      <div>2:00 PM</div>
+    </div>
+    <div>
+      <div class="title">Chair Speaker</div>
+      <div>Mark Doe</div>
+    </div>
+  </div>
+  <div class="schedule-list">
+
+    <div class="schedule-item">2:00 PM</div>
+    <div class="schedule-item">Opening & Welcome</div>
+
+    <div class="schedule-item">2:15 PM</div>
+    <div class="schedule-item">Future of AI in Tech</div>
+
+    <div class="schedule-item">2:45 PM</div>
+    <div class="schedule-item">Cybersecurity Trends 2026</div>
+
+    <div class="schedule-item">3:15 PM</div>
+    <div class="schedule-item">Cloud Computing Innovations</div>
+
+    <div class="schedule-item">3:45 PM</div>
+    <div class="schedule-item">Panel Discussion & Q&A</div>
+
+  </div>
+
+</section>
+
 <section class="hotel-section">
     <div class="container text-center">
         <h2 class="mb-4">Hotel Stay Options</h2>
@@ -172,28 +207,71 @@
     </div>
 </section>
 
-<section class="contact-section">
-    <div class="container">
-        <div class="contact-container">
-            <div class="contact-text">
-                <h2>Contact Us</h2>
-                <p class="lead">
-                    We'd love to hear from you! Reach out for inquiries about the tech summit,tickets
-                    partnerships, sponsorship opportunities, or general questions.
-                    Submit your email and our team will get back to you shortly.
-                </p>
-            </div>
-            <div class="contact-form">
-                <form>
-                    <div class="mb-3">
-                        <form class="email-form">
-                             <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                    </div>
-                    <button type="submit" class="btn btn-custom w-100">Submit</button>
-            </div>
-        </div>
+<section class="container my-5">
+  <div class="row align-items-center">
+
+    <!-- Left Side: Contact Text -->
+    <div class="col-md-5 mb-4 mb-md-0">
+      <h3>Get in Touch</h3>
+      <p>
+        For ticket inquiries, questions about the summit, or even random comments,
+        feel free to reach out using the contact form. Our team is happy to assist
+        you with any information you need regarding the event.
+      </p>
     </div>
+
+    <!-- Right Side: Contact Form -->
+    <div class="col-md-7">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <form>
+
+            <!-- Name Field -->
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input 
+                type="text" 
+                class="form-control" 
+                id="name" 
+                placeholder="Enter your full name"
+                required>
+            </div>
+
+            <!-- Email Field -->
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input 
+                type="email" 
+                class="form-control" 
+                id="email" 
+                placeholder="Enter your email"
+                required>
+            </div>
+
+            <!-- Message Field -->
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea 
+                class="form-control" 
+                id="message" 
+                rows="4" 
+                placeholder="Write your message here..."
+                required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">
+                Submit
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
 
 <footer class="footer">

@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+.btn-warning{
+    padding: 5px;
+    border-radius: 10px;
+}
 .navbar-custom {
             background-color: blue; 
         }
@@ -134,6 +138,42 @@
             }
         }
 
+          .schedule-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+
+  .schedule-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background: #1e90ff;
+    color: white;
+    padding: 15px;
+  }
+
+  .schedule-list {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
+
+  .schedule-item {
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+
         .hotel-section {
             padding: 60px 0;
             background-color: whitesmoke;
@@ -163,6 +203,29 @@
         .price {
             font-weight: bold;
             color: blue;
+        }
+        .message-section {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        .message-card {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .message-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .button-row {
+            display: flex;
+            justify-content: flex-end;
         }
 
         @media (max-width: 768px) {
@@ -196,11 +259,6 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
-
-        .btn-custom {
-            background-color: cyan;
-            border: none;
         }
 
         .btn-custom:hover {
